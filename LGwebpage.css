@@ -11,9 +11,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     justify-content: left;
-    display: flex; 
+    display: flex;
     background-image: url(/home/lumanyano/projects/webpage/gtff.jpg) ;
-    background-size: 100% 100%;  
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .Thecity {
@@ -22,18 +22,21 @@ body {
     justify-content: space-between ;
     display: flex;
 }
-.Thecity li {
-    list-style: none;
 
+.Thecity img {
+  float;left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
+
 table {
         border-collapse: collapse;
       }
-      
+
 table, th, td {
         border: 1px solid black;
         table-layout: fixed;
-        width: 150px; 
+        width: 150px;
 
 }
 
@@ -42,22 +45,22 @@ table, th, td {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     justify-content: space-between;
-    display: flex; 
+    display: flex;
 }
 .historyP2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     justify-content: space-between;
-    display: flex;  
-    padding: 2em; 
+    display: flex;
+    padding: 2em;
     margin-right: 10px;
 }
 .historyP3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     justify-content: space-between;
-    display: flex; 
-        
+    display: flex;
+
 }
 
 
@@ -66,21 +69,22 @@ table, th, td {
     .profile {
         display: flex;
     }
-    
+
     .historyP {
         display: flex;
         }
-        
-}
-.historyP img {
-    float: right;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
+    .Thecity{
+      display: flex;
+    }
+    .historyP img {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .historyP2 img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
 
-.historyP2 img {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
 }
-
