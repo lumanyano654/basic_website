@@ -10,23 +10,8 @@ body {
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
-    justify-content: left;
+    justify-content: space-between;
     display: flex;
-    background-image: url(/home/lumanyano/projects/webpage/gtff.jpg) ;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.Thecity {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    justify-content: space-between ;
-    display: flex;
-}
-
-.Thecity img {
-  float;left;
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 table {
@@ -36,55 +21,44 @@ table {
 table, th, td {
         border: 1px solid black;
         table-layout: fixed;
-        width: 150px;
+        width: 200px;
 
 }
-
-
-.historyP1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    justify-content: space-between;
-    display: flex;
-}
-.historyP2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    justify-content: space-between;
-    display: flex;
-    padding: 2em;
-    margin-right: 10px;
-}
-.historyP3 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    justify-content: space-between;
-    display: flex;
-
-}
-
-
 
 @media(min-width:800px){
-    .profile {
+    .profile img {
+        float: right;
         display: flex;
     }
 
     .historyP {
         display: flex;
         }
-    .Thecity{
+    .Thecity img {
+      float: left;
       display: flex;
+      padding-right: 10px;
+      padding-bottom: 5px;
     }
-    .historyP img {
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 10px;
+    .historyP1 img {
+        display: flex;
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 5px;
     }
     .historyP2 img {
         float: left;
-        margin-right: 10px;
-        margin-bottom: 10px;
+        display:flex;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+
     }
+    .historyP3 img {
+        float: left;
+        display:flex;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
 
 }
